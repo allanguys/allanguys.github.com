@@ -1,14 +1,75 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include header.html %}</header>
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %} class="blog_body">
+{% include header.html %}
   <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
-    </div>
+     <section class="blog">
+	    	<div class="blog_mian blog_index">
+               <article class="hentry" role="article">
+
+                      {{ content | expand_urls: root_url }}
+            <div class="some-links">
+        <a class="more" href="#" title="Continue reading ¡ú">Continue reading ¡ú</a>                  
+				<dl class="cay">
+					        <dt>Categories£º</dt>
+					        <dd><a href="#" title="Redmine">Redmine</a></dd>
+				</dl>	
+
+
+			</div>
+
+
+         </article><!-- ÄÚÈÝÏêÏ¸Ò³°ü¹ü½áÊø -->
+
   </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <footer role="contentinfo">{% include footer.html %}</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {% include after_footer.html %}
+111
+
+
+
+
+
 </body>
 </html>

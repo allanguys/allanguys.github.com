@@ -1,0 +1,10 @@
+---
+layout: post
+title: "title05"
+date: 2012-11-05 21:42
+comments: true
+categories: "me"
+
+---
+哎哎
+#哎哎1
