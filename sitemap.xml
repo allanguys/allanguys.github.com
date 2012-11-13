@@ -2,22 +2,34 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://allanguys.github.com/blog/2012/10/24/my-first-octopress-blog/</loc>
-        <lastmod>2012-11-05T23:06:21+08:00</lastmod>
+        <lastmod>2012-11-13T22:22:11+08:00</lastmod>
     </url>
     <url>
         <loc>http://allanguys.github.com/blog/2012/10/25/title/</loc>
-        <lastmod>2012-11-05T23:06:21+08:00</lastmod>
+        <lastmod>2012-11-13T22:22:11+08:00</lastmod>
     </url>
     <url>
         <loc>http://allanguys.github.com/blog/2012/11/05/title/</loc>
-        <lastmod>2012-11-05T23:06:21+08:00</lastmod>
+        <lastmod>2012-11-13T22:22:11+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://allanguys.github.com/blog/2012/11/06/title/</loc>
+        <lastmod>2012-11-13T22:22:11+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://allanguys.github.com/blog/2012/11/13/title/</loc>
+        <lastmod>2012-11-13T22:22:11+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://allanguys.github.com/blog/2012/11/13/allan5/</loc>
+        <lastmod>2012-11-13T23:00:59+08:00</lastmod>
     </url>
     <url>
         <loc>http://allanguys.github.com/blog/archives/</loc>
-        <lastmod>2012-11-05T23:06:21+08:00</lastmod>
+        <lastmod>2012-11-13T23:00:59+08:00</lastmod>
     </url>
     <url>
         <loc>http://allanguys.github.com/</loc>
-        <lastmod>2012-11-05T23:06:21+08:00</lastmod>
+        <lastmod>2012-11-13T23:16:43+08:00</lastmod>
     </url>
 </urlset>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Allan's Blog]]></title>
-  <link href="http://allanguys.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: allan | Allan's Blog]]></title>
+  <link href="http://allanguys.github.com/blog/categories/allan/atom.xml" rel="self"/>
   <link href="http://allanguys.github.com/"/>
   <updated>2012-11-13T23:21:45+08:00</updated>
   <id>http://allanguys.github.com/</id>
@@ -218,51 +218,6 @@
 <h1>测试中文毫无问题啊亲！！！</h1>
 
 <h1>测试中文毫无问题啊亲！！！</h1>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[title]]></title>
-    <link href="http://allanguys.github.com/blog/2012/11/13/title/"/>
-    <updated>2012-11-13T20:32:00+08:00</updated>
-    <id>http://allanguys.github.com/blog/2012/11/13/title</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[title]]></title>
-    <link href="http://allanguys.github.com/blog/2012/11/06/title/"/>
-    <updated>2012-11-06T22:32:00+08:00</updated>
-    <id>http://allanguys.github.com/blog/2012/11/06/title</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[title05]]></title>
-    <link href="http://allanguys.github.com/blog/2012/11/05/title/"/>
-    <updated>2012-11-05T21:42:00+08:00</updated>
-    <id>http://allanguys.github.com/blog/2012/11/05/title</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[title]]></title>
-    <link href="http://allanguys.github.com/blog/2012/10/25/title/"/>
-    <updated>2012-10-25T10:30:00+08:00</updated>
-    <id>http://allanguys.github.com/blog/2012/10/25/title</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My first octopress blog]]></title>
-    <link href="http://allanguys.github.com/blog/2012/10/24/my-first-octopress-blog/"/>
-    <updated>2012-10-24T23:15:00+08:00</updated>
-    <id>http://allanguys.github.com/blog/2012/10/24/my-first-octopress-blog</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
