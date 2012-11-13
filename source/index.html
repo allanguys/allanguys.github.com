@@ -1,29 +1,73 @@
 ---
 layout: default
 ---
-
-<div class="blog-index">
+   <section class="blog">
+    <div class="blog_mian blog_index">
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
-    <article>
+
+
+
+        <article class="hentry" role="article">
       {% include article.html %}
-    </article>
+
+         </article><!-- 内容列表页包裹结束 -->  
+
   {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
+
+
+    
+    <div class="pagination">    
+      {% if paginator.next_page %}<a href="{{paginator.next_page}}" class="prev">← Older</a>    {% endif %}
     <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
+     {% if paginator.previous_page %}<a href="{{paginator.previous_page}}" class="next">Newer →</a>{% endif %}  
+
+
+   </div>  
+      <!-- 分页 --> 
+
+
+
+    </div>
+
+
+<div class="blog_sider">
+      <h2><a title="博客首页" href="/">Wirte My Life</a></h2>
+      <div class="f_pic"><a title="this" href="#"><img alt="" src="http://allan5.com/images/blog.jpg"></a></div>
+        {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
   {% else %}
     {% include_array default_asides %}
   {% endif %}
-</aside>
+  <ul class="bs_plus">
+   <li>
+      <h4>Recent Posts</h4>
+      <ul>
+       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
+      </ul>
+   </li>   
+   <li class="categorer">
+      <h4>Categories</h4>
+      <ul>
+       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
+      </ul>
+   </li>   
+   <li>
+      <h4>Links</h4>
+      <ul>
+       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
+      </ul>
+   </li>   
+   <li>
+<a title="RSS" href="/atom.xml"><strong>RSS</strong></a>
+   </li>
+  </ul>  
+    </div>
+
+
+
+   </section>
+
+
+
