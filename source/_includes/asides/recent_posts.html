@@ -1,10 +1,12 @@
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
+   <li>
+      <h4>Recent Posts</h4>
+      <ul>
     {% for post in site.posts limit: site.recent_posts %}
-      <li class="post">
+      <li>
         <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
-  </ul>
-</section>
+      </ul>
+   </li>   
+
+

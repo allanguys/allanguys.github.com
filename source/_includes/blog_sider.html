@@ -1,0 +1,32 @@
+<div class="blog_sider">
+      <h2><a title="博客首页" href="/">Wirte My Life</a></h2>
+      <div class="f_pic"><a title="this" href="#"><img alt="" src="http://allan5.com/images/blog.jpg"></a></div>
+
+  <ul class="bs_plus">
+
+        {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+   <li>
+<a title="RSS" href="/atom.xml" target="_blank"><strong>RSS</strong></a>
+   </li>
+    {% if site.simple_search %}
+   <li> 
+<form action="{{ site.simple_search }}" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+</li>  {% endif %}
+  </ul>  
+    </div>
+
+
+
+
+
+
+  

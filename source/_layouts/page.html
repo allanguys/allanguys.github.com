@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
+<section class="blog">
+  <div class="blog_mian blog_one_col
 
-<div>
-<article role="article">
+
+
+
+
+  ">
+    <div class="hentry article_box">
   {% if page.title %}
-  <header>
+  <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+<!--   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
-  </header>
+  </header> -->
   {% endif %}
   {{ content }}
   {% unless page.footer == false %}
@@ -23,20 +30,28 @@ layout: default
       {% endunless %}
     </footer>
   {% endunless %}
-</article>
-{% if site.disqus_short_name and page.comments == true %}
+</div>
+<!-- {% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
-{% endif %}
-</div>
-{% unless page.sidebar == false %}
-<aside class="sidebar">
-  {% if site.page_asides.size %}
-    {% include_array page_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endunless %}
+{% endif %} -->
+
+
+   </div>  
+      <!-- 分页 --> 
+
+
+
+    </div>
+
+
+  {% include blog_sider.html %}
+
+
+</section>
+
+
+
+

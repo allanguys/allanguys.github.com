@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://allanguys.github.com
+url: http://blog.allan5.com
 title: Allan's Blog
 subtitle: Wirte My Life
 author: Allan.Wang
@@ -86,12 +86,12 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: 
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: allanwang
-disqus_show_comment_count: true
+disqus_short_name: allan5
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:

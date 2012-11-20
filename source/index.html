@@ -32,38 +32,7 @@ layout: default
     </div>
 
 
-<div class="blog_sider">
-      <h2><a title="博客首页" href="/">Wirte My Life</a></h2>
-      <div class="f_pic"><a title="this" href="#"><img alt="" src="http://allan5.com/images/blog.jpg"></a></div>
-        {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-  <ul class="bs_plus">
-   <li>
-      <h4>Recent Posts</h4>
-      <ul>
-       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
-      </ul>
-   </li>   
-   <li class="categorer">
-      <h4>Categories</h4>
-      <ul>
-       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
-      </ul>
-   </li>   
-   <li>
-      <h4>Links</h4>
-      <ul>
-       <li><a title="HOW tO USE SOME" href="#">HOW tO USE SOME</a></li>
-      </ul>
-   </li>   
-   <li>
-<a title="RSS" href="/atom.xml"><strong>RSS</strong></a>
-   </li>
-  </ul>  
-    </div>
+  {% include blog_sider.html %}
 
 
 

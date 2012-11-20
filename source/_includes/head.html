@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
+
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="Bookmark" href="favicon.ico">
+<link rel="shortcut icon" href="http://allan5.com/favicon.ico">
+<link rel="Bookmark" href="http://allan5.com/favicon.ico">
 <meta name="viewport" content="width=device-width; initial-scale=1.0;maximum-scale=1">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple_icon.png" />
 <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
@@ -24,11 +24,12 @@
     <div class="header_wp">
      
 
-      <h1><a href="index.html" title="Allan's Home"><i id="logo" ><img src="img/logo.png" alt="Allan's LOGO"></i><strong>Allan's <span>Home</span></strong></a></h1>
+      <h1><a href="index.html" title="Allan's Home"><i id="logo" ><img src="http://allan5.com/img/logo.png" alt="Allan's LOGO"></i><strong>Allan's <span>Home</span></strong></a></h1>
     <nav>
        <ul>
-        <li><a href="index.html" title="Allan's Album">Album</a></li>
-        <li class="cur"><a href="about.html" title="ABout Allan">ABout</a></li>
+        <li><a href="http://allan5.com/index.html" title="Allan's Album">Album</a></li>
+        <li><a href="http://allan5.com/about.html" title="ABout Allan">ABout</a></li>
+        <li class="cur"><a href="http://blog.allan5.com/" title="Allan's Blog">Blog</a></li>
        </ul>
     </nav>
     </div>
