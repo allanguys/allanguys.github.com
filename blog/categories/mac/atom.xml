@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Allan's Blog]]></title>
-  <link href="http://blog.allan5.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: mac | Allan's Blog]]></title>
+  <link href="http://blog.allan5.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://blog.allan5.com/"/>
   <updated>2012-11-29T18:52:50+08:00</updated>
   <id>http://blog.allan5.com/</id>
