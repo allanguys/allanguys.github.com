@@ -45,11 +45,11 @@ categories: mac
 
 1.  1、放大用户当前获得的荣誉，刺激用户去完美完成关卡。（我至今木有完美通关，一个像小拇指的勋章who care啊）
 
-2.  2、全屏的时候无法操作其他的内容，窗口话又太小了有木有。
-   
+2.  2、全屏的时候无法操作其他的内容，窗口话又太小了有木有。  
 
-下载 defense Grid（破解版 ）
-
+<br>
+**[下载 defense Grid（破解版 ）]**  提取码：**r3S479**
+[下载 defense Grid（破解版 ）]:http://www.kuaipan.cn/file/id_43079505526396399.htm  "下载 defense Grid（破解版 ）"  
 <br><br>
 ###3、JellyDefense（果冻防御）
 <br>
