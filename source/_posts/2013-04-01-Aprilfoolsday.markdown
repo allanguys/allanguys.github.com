@@ -38,7 +38,7 @@ Google是一个**很浪**的公司，不仅在特别的日子会设计一个  [�
 
 一向很洋气的豌豆荚也让我很是欣赏，他们推出了[空气洗白白](http://www.wandoujia.com/xibaibai/air?utm_source=appinn&utm_medium=banner&utm_campaign=2013Fools)。
 <br/>
-<embed width="670" height="400" isautoplay="autoplay" allowfullscreen="true" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XNTM1ODg3ODgw==/v.swf?VideoIDS=XNTM1ODg3ODgw==&amp;isAutoPlay=true&amp;isShowRelatedVideo=true&amp;showAd=0" class="video-player">
+<embed width="670" height="400" isautoplay="autoplay" allowfullscreen="true" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XNTM1ODg3ODgw==/v.swf?VideoIDS=XNTM1ODg3ODgw==&amp;isAutoPlay=false&amp;isShowRelatedVideo=true&amp;showAd=0" class="video-player">
 <br/>
 看完之后，你会惊呼 **“**尼玛啊，豌豆荚完全是**组团大忽悠**啊**”** 。   
 没错，逼真的产品视频，真实的硬件，豌豆荚APP中的演示，让我这个在互联网中混迹多年的老油条都上当了。并且做了一回“**[打喷嚏的人](http://baike.baidu.com/view/1277162.htm)**”
