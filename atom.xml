@@ -4,7 +4,7 @@
   <title><![CDATA[Allan's Blog]]></title>
   <link href="http://blog.allan5.com/atom.xml" rel="self"/>
   <link href="http://blog.allan5.com/"/>
-  <updated>2013-04-04T22:30:39+08:00</updated>
+  <updated>2013-04-04T22:55:35+08:00</updated>
   <id>http://blog.allan5.com/</id>
   <author>
     <name><![CDATA[Allan.Wang]]></name>
@@ -64,7 +64,7 @@
 <br/>
 
 
-<p><embed width="670" height="400" isautoplay="autoplay" allowfullscreen="true" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XNTM1ODg3ODgw==/v.swf?VideoIDS=XNTM1ODg3ODgw==&amp;isAutoPlay=true&amp;isShowRelatedVideo=true&amp;showAd=0" class="video-player"></p>
+<p><embed width="670" height="400" isautoplay="autoplay" allowfullscreen="true" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XNTM1ODg3ODgw==/v.swf?VideoIDS=XNTM1ODg3ODgw==&amp;isAutoPlay=false&amp;isShowRelatedVideo=true&amp;showAd=0" class="video-player"></p>
 
 <br/>
 
