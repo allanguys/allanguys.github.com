@@ -4,7 +4,7 @@
   <title><![CDATA[Allan's Blog]]></title>
   <link href="http://blog.allan5.com/atom.xml" rel="self"/>
   <link href="http://blog.allan5.com/"/>
-  <updated>2013-07-23T23:28:48+08:00</updated>
+  <updated>2013-09-15T16:00:36+08:00</updated>
   <id>http://blog.allan5.com/</id>
   <author>
     <name><![CDATA[Allan.Wang]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[浅谈css3动画]]></title>
+    <link href="http://blog.allan5.com/blog/2013/09/15/simple-css3/"/>
+    <updated>2013-09-15T14:55:00+08:00</updated>
+    <id>http://blog.allan5.com/blog/2013/09/15/simple-css3</id>
+    <content type="html"><![CDATA[<blockquote><p>《浅谈css3动画》是最近针对部门毕业生做的一个小分享，</p>
+
+<p>主要分享了一些基础的css3的三个动画家族:transform/transition/animation和他们各自的属性。</p></blockquote>
+
+<h5>相关下载和demo：</h5>
+
+<ul>
+<li><p>keynote下载：<a href="http://www.kuaipan.cn/file/id_43079505526407295.htm" title="浅谈css3动画keynote版本">http://www.kuaipan.cn/file/id_43079505526407295.htm </a></p></li>
+<li><p>ppt下载:<a href="http://www.kuaipan.cn/file/id_43079505526407460.htm" title="浅谈css3动画PPT版本">http://www.kuaipan.cn/file/id_43079505526407460.htm</a></p></li>
+<li><p>demo列表 <a href="http://allan5.com/simple_css3/" title="浅谈css3动画Demo列表">http://allan5.com/simple_css3/</a></p></li>
+</ul>
+
+
+<blockquote><p>欢迎大家多提意见：）</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[台湾之行]]></title>
@@ -70,6 +92,11 @@
 <p><img src="https://farm8.staticflickr.com/7426/9229440069_a1cb560df6.jpg" alt="嘉义" /></p>
 
 <p>嘉义</p>
+
+<!-- more -->
+
+
+
 
 <br>
 
