@@ -1,0 +1,23 @@
+---
+layout: post
+title: "浅谈css3动画"
+date: 2013-09-15 14:55
+comments: true
+categories: html/css
+---
+
+
+> 《浅谈css3动画》是最近针对部门毕业生做的一个小分享，
+> 
+> 主要分享了一些基础的css3的三个动画家族:transform/transition/animation和他们各自的属性。
+
+
+#####相关下载和demo：#####
+
+* keynote下载：[http://www.kuaipan.cn/file/id_43079505526407295.htm ](http://www.kuaipan.cn/file/id_43079505526407295.htm  "浅谈css3动画keynote版本")  
+
+* ppt下载:[http://www.kuaipan.cn/file/id_43079505526407460.htm](http://www.kuaipan.cn/file/id_43079505526407460.htm  "浅谈css3动画PPT版本")  
+
+* demo列表 [http://allan5.com/simple_css3/](http://allan5.com/simple_css3/  "浅谈css3动画Demo列表")  
+
+> 欢迎大家多提意见：）
