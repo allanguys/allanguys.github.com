@@ -5,7 +5,7 @@ hr{border:1px solid #E5E5E5;border-width:1px 0 0 ;}
 .blog{width:1000px;margin:0 auto;1font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;  }
 .blog:after{content:'\20';display:block;height:0;clear:both;}
 .blog{*zoom:1;}
-.blog_body{background:#F1F1F1 url('http://allan5.com/img/bg.png') no-repeat;background-attachment: fixed;}
+.blog_body{background:#F1F1F1 url('/images/bg.png') no-repeat;background-attachment: fixed;}
 
 
 .blog_sider{float:left;padding-top:60px;width:220px;color:#B5B5B5;text-align:right;}
