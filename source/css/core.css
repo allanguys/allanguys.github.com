@@ -1,0 +1,99 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{-webkit-text-size-adjust: none;margin:0;padding:0;}body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,var{font-style:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol{list-style:none;}a{text-decoration:none;outline:0 none}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}legend{color:#000;}fieldset,img{border:0;}button,input,select,textarea{font-size:100%;resize: none;}table{border-collapse:collapse;border-spacing:0;}
+.fix:after{content:'\20';display:block;height:0;clear:both;}
+.fix{*zoom:1;}
+::selection {background:#2EB72F; color:#fff;}::-moz-selection {background:#2EB72F; color:#fff;}::-webkit-selection {background:#2EB72F;color:#fff;}
+
+article, aside, figure, figure img, hgroup, footer, header, nav, section {display: block;}
+
+.photo_wp:after,.mian_wp:after,.header:after{content:'\20';display:block;height:0;clear:both;}
+.photo_wp,.mian_wp,.header{*zoom:1;}
+
+@font-face {
+    font-family: 'ProcionoRegular';
+    src: url('../fonts/prociono-regular-webfont.eot');
+    src: url('../fonts/prociono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/prociono-regular-webfont.woff') format('woff'),
+         url('../fonts/prociono-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{font-family: 'ProcionoRegular',\5FAE\8F6F\96C5\9ED1;font-size:12px;background-color:#F1F1F1;}
+a{text-decoration:none;color:#2EB72F;  }
+
+body {-webkit-text-size-adjust: 100%;}
+
+.header_wp,.mian_wp{width:900px; }
+
+header{background:#fff;position:relative;-webkit-perspective: 800px;-moz-perspective: 800px;-o-perspective: 800px;perspective: 800px; box-shadow:2px 2px 3px rgba(0,0,0,0.1); }
+
+.header_wp{background:#fff;margin:0 auto;height:58px; }
+header i{display:inline-block;width:30px;height:30px;vertical-align:-10px;margin-right:10px  }
+header h1{float:left;height:30px;line-height:30px;padding-top:14px;font-weight:normal;}
+header h1 strong{font-weight:normal;}
+header h1 a{color:#37A033;font-size:16px;font-weight:normal; -moz-transition:all 0.2s linear 0s;-webkit-transition:all 0.2s linear 0s;-o-transition:all 0.2s linear 0s; }
+header h1 a span{color:#979595; }
+header h1 img{width:30px;-webkit-transition: -webkit-transform 1s;-moz-transition: -moz-transform 1s;-o-transition: -o-transform 1s;transition: transform 1s;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;}
+
+header h1 a:hover img{-webkit-transform: rotateY( 180deg );-moz-transform: rotateY( 180deg );-o-transform: rotateY( 180deg );transform: rotateY( 180deg );}
+
+header nav{float:right;}
+header nav li{float:left;color:#979595;font-size:14px;padding:0 20px;  }
+header nav a{color:#979595;1font-style:italic;padding:20px 0 0;display:inline-block;border-top:3px solid #fff;-webkit-transition:all .2s linear;transition:all .2s linear;-moz-transition:all .2s linear;}
+header nav a:hover,nav li.cur a{text-decoration:none;border-top-color:#2EB72F;color:#2EB72F; }
+
+
+
+@media only screen and (min-width:320px) and (max-width:760px) {
+
+ 
+  body {width:100%; padding: 0;margin: 0 auto;background:#2C2B53; }
+
+  
+
+  header{width:100%;z-index:99}
+  .header_wp,.mian_wp{width: 100%;}
+  .header_wp h1{position:absolute; left:20px;top:15px;padding:0; } 
+  .header_wp h1 strong{display:none; }
+  header  nav{padding:0 10px 0 0; }
+
+
+
+
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)  {
+
+
+  body {width:100%; padding: 0;margin: 0 auto;background:#2C2B53; }
+
+  header{width:100%;z-index:99}
+  .header_wp,.mian_wp{width: 100%;}
+  .header_wp h1{position:absolute; left:20px;top:15px;padding:0; } 
+  .header_wp h1 strong{display:none; }
+  header nav{padding:0 10px 0 0; }
+
+
+}
+
+
+
+
+/*	RETINA OVERRIDES 
+----------------------------------------------- */
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+
+
+}
+
+
+
+
+

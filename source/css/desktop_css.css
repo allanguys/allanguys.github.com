@@ -1,0 +1,32 @@
+  body {width:100%; padding: 0;margin: 0 auto;background:#2C2B53; }
+
+  
+
+  header{-webkit-overflow-scrolling:touch;top:0px;left:0px;width:100%;z-index:99}
+  .header_wp,.mian_wp{width: 100%;}
+  .header_wp h1{position:absolute; left:20px;top:15px;padding:0; } 
+  .header_wp h1 strong{display:none; }
+   nav{padding:0 10px 0 0; }
+
+  section{background:none}
+
+  .mian_wp{padding:30px 0 0;max-width:100%;overflow:hidden; }
+
+  #famous{max-width:92% }
+  .con a{cursor:default}
+  .con a .det{opacity:0.8;bottom:0}
+  .left_col, .right_col{float:none;text-align:left;margin-left:2% ;width:100%; }
+  .left_col .det{left:0}
+  img{max-width:95%;}
+
+  .see_all{text-align:center;padding:30px 0 0 ;  }
+
+  .about_body {background:#fff;color:#6e6e6e;  }
+  .about_body header{box-shadow:2px 2px 3px #ededed;-moz-box-shadow:2px 2px 3px #ededed;-webkit-box-shadow:2px 2px 3px #ededed;}
+  .about{text-align:center; }
+  .about img{margin:0;float:none;max-width:90%;  }
+  .about_con{width:auto; padding:30px 30px 0 30px;max-width:90%;text-align:left;font-size:13px;font-family:\5FAE\8F6F\96C5\9ED1;  }
+  
+
+
+  footer span{display:none;  }
